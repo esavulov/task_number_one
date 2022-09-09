@@ -3,6 +3,6 @@ public class Main {
         int[] arr = {10, 20, 40, 50};
         SalesManager salesManager = new SalesManager(arr);
         int max = salesManager.max();
-        System.out.println(max);
+        System.out.println(salesManager.getAverageSale());
     }
 }
